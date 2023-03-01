@@ -3242,6 +3242,15 @@ input, select, textarea {
 			z-index: -1;
 		}
 
+		.bgVid
+		{
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			z-index: -1;
+			
+		}
+
 			#wrapper > .bg.fixed {
 				position: fixed;
 				width: 100vw;
@@ -3795,6 +3804,7 @@ input, select, textarea {
 			#main > .post.featured {
 				text-align: center;
 			}
+			
 
 			@media screen and (max-width: 1280px) {
 
@@ -4676,7 +4686,7 @@ input, select, textarea {
 		body.is-navPanel-visible #wrapper {
 			opacity: 0.5;
 		}
-
+	
 		body.is-navPanel-visible #navPanel {
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
@@ -4685,6 +4695,8 @@ input, select, textarea {
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
 		}
+	}
+	
 /* Tiles */
 
 .tiles {
@@ -4935,18 +4947,4 @@ input, select, textarea {
 					transform: scale(1.0);
 				}
 
-	}
-
-	@media screen and (max-width: 480px) {
-
-		.tiles {
-			margin: 0;
-		}
-
-			.tiles article {
-				width: 100%;
-				margin: 1.25em 0 0 0;
-			}
-
-	}
 	}
