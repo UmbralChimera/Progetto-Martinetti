@@ -53,7 +53,7 @@
 
 			var $t = $(this),
 				$bg = $('<div class="bg">' +
-					'<video autoPlay muted class="bg-video">' +
+					'<video autoPlay muted loop class="bg-video">' +
 						'<source src="./videos/bgvid.mp4" type="video/mp4">' +
 					'</video>' +
 					'</div>').appendTo($t),
