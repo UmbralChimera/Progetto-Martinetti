@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="307ab0e4-6624-4daa-8f7a-0aa35305d7aa" name="Changes" comment="fix vari, copyright commentato, video path fixed">
-      <change beforePath="$PROJECT_DIR$/SITO-FONDAZIONE/etica/martinetti-caverna.html" beforeDir="false" afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/etica/martinetti-caverna.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SITO-FONDAZIONE/etica/martinetti-giustizia-riparativa.html" beforeDir="false" afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/etica/martinetti-giustizia-riparativa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SITO-FONDAZIONE/etica/martinetti-olivetti.html" beforeDir="false" afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/etica/martinetti-olivetti.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SITO-FONDAZIONE/etica/pericle-platone.html" beforeDir="false" afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/etica/pericle-platone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SITO-FONDAZIONE/istruzione/martinetti-platone.html" beforeDir="false" afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/istruzione/martinetti-platone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SITO-FONDAZIONE/retorica/martinetti-propaganda.html" beforeDir="false" afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/retorica/martinetti-propaganda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SITO-FONDAZIONE/retorica/martinetti-sofisti.html" beforeDir="false" afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/retorica/martinetti-sofisti.html" afterDir="false" />
-    </list>
+    <list default="true" id="307ab0e4-6624-4daa-8f7a-0aa35305d7aa" name="Changes" comment="fix vari, copyright commentato, video path fixed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +75,7 @@
       <workItem from="1682438459214" duration="25368000" />
       <workItem from="1682957003706" duration="873000" />
       <workItem from="1683057205864" duration="241000" />
-      <workItem from="1683057461365" duration="12328000" />
+      <workItem from="1683057461365" duration="13121000" />
     </task>
     <task id="LOCAL-00001" summary="sito">
       <created>1682455208224</created>
@@ -127,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683063871515</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix vari, copyright commentato, video path fixed">
+      <created>1683128887341</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683128887341</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
