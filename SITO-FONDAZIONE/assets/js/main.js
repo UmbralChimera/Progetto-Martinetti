@@ -52,7 +52,7 @@
 		$this.each(function() {
 			const test = true;
 			let subfolder = [...window.location.href.slice(7, window.location.href.length).matchAll('\/')].length;
-			var videopath = 'videos/bg2.mp4';
+			var videopath = 'videos/bgvid4.mp4';
 			var start = (test)? 4:1;
 			for( var i= start; i<=subfolder; i++) {
 				videopath = '../' + videopath;
