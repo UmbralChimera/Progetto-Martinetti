@@ -55,7 +55,7 @@
 			var videopath = 'videos/bg2.mp4';
 			var start = (test)? 4:1;
 			for( var i= start; i<=subfolder; i++) {
-				videopath = '../' + videopath;
+				videopath = './' + videopath;
 			}
 			videopath = './' + videopath;
 			var $t = $(this),
