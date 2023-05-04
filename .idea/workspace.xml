@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="307ab0e4-6624-4daa-8f7a-0aa35305d7aa" name="Changes" comment="fix immagine e url video per webserver">
-      <change afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/backstage.html" afterDir="false" />
+    <list default="true" id="307ab0e4-6624-4daa-8f7a-0aa35305d7aa" name="Changes" comment="fix vari e filmato propaganda">
+      <change afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/videos/backstage_web.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SITO-FONDAZIONE/biografia.html" beforeDir="false" afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/biografia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SITO-FONDAZIONE/backstage.html" beforeDir="false" afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/backstage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SITO-FONDAZIONE/progetto.html" beforeDir="false" afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/progetto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SITO-FONDAZIONE/retorica/martinetti-propaganda.html" beforeDir="false" afterPath="$PROJECT_DIR$/SITO-FONDAZIONE/retorica/martinetti-propaganda.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,23 +37,23 @@
     <option name="showMembers" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "sito",
-    "last_opened_file_path": "/Users/masabrina/WebstormProjects/Progetto-Martinetti/SITO-FONDAZIONE",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sito&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/masabrina/WebstormProjects/Progetto-Martinetti/SITO-FONDAZIONE&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SITO-FONDAZIONE" />
@@ -64,8 +63,8 @@
       <recent name="$PROJECT_DIR$/SITO-FONDAZIONE/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/SITO-FONDAZIONE/images" />
       <recent name="$PROJECT_DIR$/SITO-FONDAZIONE/videos" />
+      <recent name="$PROJECT_DIR$/SITO-FONDAZIONE/images" />
       <recent name="$PROJECT_DIR$/SITO-FONDAZIONE" />
       <recent name="$PROJECT_DIR$/TEMPLATES" />
       <recent name="$PROJECT_DIR$/Sito/etica" />
@@ -95,7 +94,8 @@
       <workItem from="1682957003706" duration="873000" />
       <workItem from="1683057205864" duration="241000" />
       <workItem from="1683057461365" duration="22729000" />
-      <workItem from="1683183197248" duration="8658000" />
+      <workItem from="1683183197248" duration="8801000" />
+      <workItem from="1683240859225" duration="49000" />
     </task>
     <task id="LOCAL-00001" summary="sito">
       <created>1682455208224</created>
@@ -174,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683236340104</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix vari e filmato propaganda">
+      <created>1683240756629</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683240756629</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +204,7 @@
     <MESSAGE value="new bg vid" />
     <MESSAGE value="images" />
     <MESSAGE value="fix immagine e url video per webserver" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix immagine e url video per webserver" />
+    <MESSAGE value="fix vari e filmato propaganda" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix vari e filmato propaganda" />
   </component>
 </project>
