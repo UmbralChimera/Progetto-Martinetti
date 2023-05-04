@@ -49,21 +49,17 @@
           style="font-weight: 400;">&raquo;</span></p>
       </header>
       <div class="image main"><img alt="" src="../images/Aristotelici.jpg"/></div>
-      <p><strong>&laquo;VITA DI GALILEO&raquo;</strong>
-        <strong>BERTOLT BRECHT</strong></p>
+      <p><a><strong id="vita-di-galileo-tooltip">&laquo;VITA DI GALILEO&raquo;</strong></a>
+        <a><strong id="brecht-tooltip">BERTOLT BRECHT</strong></a></p>
       <p>
         <span class="image left"><img src="../images/Galileo_Galilei_(Uffizi).jpg"/></span>
         
         <span style="font-weight: 400;">&laquo;GALILEO: Sovente mi accade di vedere dottori di ogni facolt&agrave; chiudere gli occhi davanti ai fatti e comportarsi come se nulla fosse. Mostro i miei rilievi e si sorride, pongo a disposizione il mio telescopio perch&eacute; ognuno possa accertarsi, e si cita Aristotele. Lui non ce l&rsquo;aveva il telescopio!&raquo;</span>
       </p>
-      <p><span style="font-weight: 400;">Bertoldt Brecht(1898-1956), drammaturgo e regista tedesco, &egrave; considerato uno dei pi&ugrave; influenti autori del teatro del &lsquo;900. Il suo &egrave; un teatro politico: gli spettatori devono infatti riuscire a cogliere il messaggio che l&rsquo;autore vuole diffondere e rifletterci sopra, senza lasciarsi condizionare dal legame emotivo con i personaggi.</span>
-      </p>
+
       <p>
         <span class="image right"><img src="../images/Bertolt_Brecht.jpg"/></span>
-        
-        <span style="font-weight: 400;">&ldquo;Vita di Galileo&rdquo;, testo teatrale ispirato alla vicenda umana e professionale di&nbsp; Galileo Galilei, viene pubblicato pi&ugrave; volte durante e dopo la Seconda Guerra Mondiale. L&rsquo;edizione definitiva contiene&nbsp; il&nbsp; messaggio politico&nbsp; fondamentale: Galilei qui incarna il paradigma dello scienziato, il quale non deve mai perdere la sua coscienza politica, perch&eacute; le sue scoperte potrebbero essere utilizzate per finalit&agrave; ambigue e politicamente oscure</span>
-      </p>
-      <p><span style="font-weight: 400;">Da questo confronto emerge che molto spesso sono le autorit&agrave; stesse a non consentire l&rsquo;avanzamento della cultura e, specificamente nel caso di Galileo, della scienza. Quelle che dovrebbero essere le classi dominanti, invece di mostrarsi aperte al cambiamento, reso possibile anche e soprattutto dal progresso tecnologico, si rinchiudono nel sapere che gi&agrave; possiedono, dandolo per assolutamente certo ed escludendo completamente la possibilit&agrave; che ci siano errori. Ne sono un esempio i fanatici di Aristotele citati dal Galileo brechtiano, che alimentano la falsa cultura (proprio come, per tornare a Martinetti, chi imbalsama la religione crea solo falsa religiosit&agrave;).</span>
+        <span style="font-weight: 400;">Da questo confronto emerge che molto spesso sono le autorit&agrave; stesse a non consentire l&rsquo;avanzamento della cultura e, specificamente nel caso di Galileo, della scienza. Quelle che dovrebbero essere le classi dominanti, invece di mostrarsi aperte al cambiamento, reso possibile anche e soprattutto dal progresso tecnologico, si rinchiudono nel sapere che gi&agrave; possiedono, dandolo per assolutamente certo ed escludendo completamente la possibilit&agrave; che ci siano errori. Ne sono un esempio i fanatici di Aristotele citati dal Galileo brechtiano, che alimentano la falsa cultura (proprio come, per tornare a Martinetti, chi imbalsama la religione crea solo falsa religiosit&agrave;).</span>
       </p>
       <p><span style="font-weight: 400;">La anacronistica mentalit&agrave; degli aristotelici seicenteschi &egrave; incarnata da don Ferrante, celebre figura dei Promessi Sposi, intellettuale innamorato della cultura antica in maniera ottusa, da vero e proprio erudito, sprezzante verso i contemporanei, e fermamente convinto di possedere gi&agrave; tutto il sapere necessario, pervenuto all&rsquo;uomo grazie alla filosofia antica.</span>
       </p>
@@ -164,6 +160,18 @@
 <script src="../assets/js/breakpoints.min.js"></script>
 <script src="../assets/js/util.js"></script>
 <script src="../assets/js/main.js"></script>
+<script src="https://unpkg.com/popper.js@1"></script>
+<script src="https://unpkg.com/tippy.js@5"></script>
+
+<script>
+  tippy('#brecht-tooltip', {
+    content: '<p><span style="font-weight: 400;"><span style="font-weight: bold">Bertoldt Brecht(1898-1956)</span><br/> Drammaturgo e regista tedesco, &egrave; considerato uno dei pi&ugrave; influenti autori del teatro del &lsquo;900. Il suo &egrave; un teatro politico: gli spettatori devono infatti riuscire a cogliere il messaggio che l&rsquo;autore vuole diffondere e rifletterci sopra, senza lasciarsi condizionare dal legame emotivo con i personaggi.</span></p>'
+  });
+  tippy('#vita-di-galileo-tooltip', {
+    content: '<p><span style="font-weight: 400;"><span style="font-weight: bold">&ldquo;Vita di Galileo&rdquo;</span> <br/> Testo teatrale ispirato alla vicenda umana e professionale di&nbsp; Galileo Galilei, viene pubblicato pi&ugrave; volte durante e dopo la Seconda Guerra Mondiale. L&rsquo;edizione definitiva contiene&nbsp; il&nbsp; messaggio politico&nbsp; fondamentale: Galilei qui incarna il paradigma dello scienziato, il quale non deve mai perdere la sua coscienza politica, perch&eacute; le sue scoperte potrebbero essere utilizzate per finalit&agrave; ambigue e politicamente oscure</span></p>\n'
+  });
+</script>
+
 
 </body>
 </html>
