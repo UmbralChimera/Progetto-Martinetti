@@ -50,11 +50,19 @@
 			intensity = 0.25;
 
 		$this.each(function() {
+			const test = true;
+			let subfolder = [...window.location.href.slice(7, window.location.href.length).matchAll('\/')].length;
 
+			var videopath = 'videos/bg3.mp4';
+			var start = (test)? 4:1;
+			for( var i= start; i<=subfolder; i++) {
+				videopath = './' + videopath;
+			}
+			videopath = './' + videopath;
 			var $t = $(this),
 				$bg = $('<div class="bg">' +
-					'<video autoPlay muted class="bg-video">' +
-						'<source src="./videos/bgvid.mp4" type="video/mp4">' +
+					'<video autoPlay muted loop class="bg-video">' +
+					 	'<source src="' + videopath + '" type="video/mp4">' +
 					'</video>' +
 					'</div>').appendTo($t),
 				on, off;
